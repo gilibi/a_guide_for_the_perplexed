@@ -89,9 +89,9 @@ Monitoring
 
 Documentation
 -------------
-* Before deploying, verify that user documentation, matches the current release.
+* Before deploying, verify that user documentation matches the current release.
 * Write detailed release notes - clearly list new features, general
-  improvements, bug fixes and known issues (i.e. existing limitations and bugs).
+  improvements, bug fixes and known issues (i.e. existing limitations and known bugs).
 
 
 Team and PR
