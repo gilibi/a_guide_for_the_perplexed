@@ -40,11 +40,16 @@ Format
 * Logging format should be readable and clear to humans (typically developers).
   It should also be structured and parseable by machines.
 * Messages should answer the WHEN, WHERE, WHO and WHAT questions:
-  WHEN - Event timestamp. Note that server timestamp may be different from
-         the users local date and time.
-  WHERE - Server/application/service identifiers, module, function etc.
-  WHO - IP, User, device, OS, user id (if authenticated).
-  WHAT - Event type, category, description.
+
+  **WHEN** - Event timestamp. Note that server timestamp may be different from
+  the users local date and time.
+
+  **WHERE** - Server/application/service identifiers, module, function etc.
+
+  **WHO** - IP, User, device, OS, user id (if authenticated).
+
+  **WHAT** - Event type, category, description.
+
 * Use single line log messages - do not spread a single message over several lines.
 * When possible, use key-val pairs (preferably using an industry standard format
   such as JSON).
