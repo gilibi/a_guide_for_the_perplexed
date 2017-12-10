@@ -42,13 +42,13 @@ Format
 * Messages should answer the WHEN, WHERE, WHO and WHAT questions:
 
   **WHEN** - Event timestamp. Note that server timestamp may be different from
-  the users local date and time.
+  the users local date and time. Whenever possible use UTC timezone.
 
-  **WHERE** - Server/application/service identifiers, module, function etc.
+  **WHERE** - Server/environment (DEV, PROD etc.)/application/service identifiers, module, function etc.
 
-  **WHO** - IP, User, device, OS, user id (if authenticated).
+  **WHO** - IP, User, device, OS, job_id, process_id, user id (if authenticated).
 
-  **WHAT** - Event type, category, description.
+  **WHAT** - Event type, category, description. Consider adding a process summary record (including status and duration).
 
 * Use single line log messages - do not spread a single message over several lines.
 * When possible, use key-val pairs (preferably using an industry standard format
@@ -79,8 +79,8 @@ Mechanism and Performance
 Stats
 -----
 * Categorize and group log messages. This will allow you to efficiently
-  aggregate log messages (and collect system statistics).
-* **Know your bottlenecks** - collect performance metrics (start, finish, duration)
+  aggregate log messages and collect system statistics.
+* Know your bottlenecks - collect performance metrics (start, finish, duration)
   using a standard time-series analytics tool (e.g. Grafana, Statsd).
 
 
@@ -103,7 +103,8 @@ Log levels/Severity
 
   **WARNING** - Indicates a possible problem [that might occur in the near future].
   Currently the process can proceed without failure.
-  For example: process duration takes too long, memory is reaching it's limit.
+  For example: process duration takes too long, memory is dangerously close to
+  it's limit.
 
   **ERROR** - An error has occurred and the process was not able to proceed.
   Log all error related context.
