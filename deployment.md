@@ -40,7 +40,7 @@ Process
 
 Environments
 ------------
-* Always maintain separate and isolated environments - DEV, TEST and PROD.
+* Always maintain separated and isolated environments - DEV, TEST and PROD.
 * When possible (typically when data QA is a factor) run a PRE-PROD or an
   INTEGRATION environment that is identical to prod in all aspects.
 * Resist the temptation to manually work/fix/configure the PROD environment.
