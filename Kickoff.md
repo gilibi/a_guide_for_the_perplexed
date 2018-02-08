@@ -1,31 +1,29 @@
-Kickoff
-External Kickoff (Customer Stakeholders)
-●	Project goals
-Define project goals, what are the main 3-4 benefits for business users. For example, “Allow focus on data analysis instead of data collection and processing”.
-●	Project scope
-○	Define the solution
-■	High level data modeling diagram
-■	Data flow and system architecture
-■	Development tools (i.e. front tool\ETL\DB tools)
-■	Operational data sources (i.e salesforce, erp)
-■	Frontend reports and dashboards (i.e management dashboard)
-■	Additional features (i.e security model, ODS loader)
-●	Timeline and milestones
-○	Define project plan and high level gantt, add the following effort and timeline
-■	Backend entities
-■	Frontend reports and dashboards
-■	UAT
-■	Stabilization
-■	Training and handover
-○	Define the main milestones - (i.e. main backend entity, main dashboard, reports delivery etc.)
-●	Roles and responsibilities
-○	Business\Product Owner
-■	Define the owner from business side, the one who suppose to provide the users requirements and approve the project deliverables.
-■	His\Her main responsibilities are:
-●	Business reports and dashboards design
-●	Detailed design approval
-●	Business dictionary and naming conventions approval
-●	UAT - reports\dashboards approval
+# Kickoff
+## External Kickoff (Customer Stakeholders)
+- Project goals - Define project goals, what are the main 3-4 benefits for business users. For example, “Allow focus on data analysis instead of data collection and processing”.
+- Project scope
+	- Define the solution
+		- High level data modeling diagram
+		- Data flow and system architecture
+		- Development tools (i.e. front tool\ETL\DB tools)
+		- Operational data sources (i.e salesforce, erp)
+		- Frontend reports and dashboards (i.e management dashboard)
+		- Additional features (i.e security model, ODS loader)
+- Timeline and milestones
+	- Define project plan and high level gantt, add the following effort and timeline
+		- Backend entities
+		- Frontend reports and dashboards
+		- UAT
+		- Stabilization
+		- Training and handover
+	- Define the main milestones - (i.e. main backend entity, main dashboard, reports delivery etc.)
+- Roles and responsibilities
+	- Business\Product Owner - Define the owner from business side, the one who suppose to provide the users requirements and approve the project deliverables.
+		- His\Her main responsibilities are:
+			- Business reports and dashboards design
+			- Detailed design approval
+			- Business dictionary and naming conventions approval
+			- UAT - reports\dashboards approval
 ○	Project Manager
 ■	His\Her main responsibilities are:
 ●	Team professional management  (i.e. code reviews, design reviews, methodologies)
