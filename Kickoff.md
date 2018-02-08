@@ -1,4 +1,3 @@
-
 Kickoff
 External Kickoff (Customer Stakeholders)
 ●	Project goals
